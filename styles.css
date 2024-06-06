@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 1px solid #000;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card {
+    padding: 10px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.profession, .phone {
+    font-size: 1em;
+}
